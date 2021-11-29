@@ -14,39 +14,106 @@ Add your timetable
 Execute the program
 
 # CODE
-~~~<!DOCTYPE html>
+~~~
+<!DOCTYPE html>
 <html>
 
    <head>
       <title>TIME TABLE</title>
    </head>
-	
+
    <body>
-      <table border = "1" cellspacing="1" bordercolor="blue" bgcolor="yellow">
+	<img src="logo.png"></img>
+      <table border = "1" cellspacing="1" bordercolor="blue" bgcolor="lightgrey">
          <tr>
+<tr>
             <th colspan="8">TIME TABLE</th>
          </tr>
-         
+         <th>Reference Number:</th>
+         <th>21005944</th>
+         <th>Name:</th>
+         <th>P.Sandeep</th>
          <tr>
             <th>DAYS</th>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-             <th>4</th>
-            <th rowspan="6">lunch break</th>
-            <th>5</th>
-            <th>6</th>
+            <th>8 to 9</th>
+            <th>9 to 10</th>
+            <th>10 to 11</th>
+             <th>11 to 12</th>
+            <th>12 to 1</th>
+            <th>1 to 2</th>
+            <th>1 to 3</th>
          </tr>
-          <tr>
+                 <tr>
              <td>MONDAY</td>
-             <td>Accounts</td>
-             <td>English</td>
-             <td>Statistics</td>
-             <td>Banking</td>
-             <td align="center">-</td>
-             <td align="center">EP</td>
+             <td>Fundementals Of Technology/19AI401/Karthi Govindaraju</td>
+             <td>Fundementals of Web Technology/19AI401/Karthi Govindaraju</td>
+             <td>Mathematics For Artificial Intelligence/19MA220/Nadar Akila P Mohan</td>
+             <td>Mathematics For Artificial Intelligence/19MA220/Nadar Akila P Mohan</td>
+             <td align="center">BREAK</td>
+             <td>Linear Algebra Laboratory/19MA221/Nadar Akila P Mohan</td>
+             <td>Linear Algebra Laboratory/19MA221/Nadar Akila P Mohan</td>
+         </tr>
+           <tr>
+             <td>TUESDAY</td>
+             <td>Soft Skills/19EY701/Praveen P</td>
+             <td>Soft Skills/19EY701/Praveen P</td>
+             <td>Engineering Mechanics and Product Development/19AI303/Ram G.R</td>
+             <td>Engineering Mechanics and Product Development/19AI303/Ram G.R</td>
+             <td>Mentoring-AD1/ECA051-AD/Archana S H</td>
+             <td>Engineering Designing and Modeling/19AI302/Ram G.R</td>
+             <td>Engineering Designing and Modeling/19AI302/Ram G.R</td>
+         </tr>
+           <tr>
+             <td>WEDNESDAY</td>
+             <td>BREAK</td>
+             <td>BREAK</td>
+             <td>Mathematics for Artificial Intelligence/19MA220/Nadar Akila P Mohan</td>
+             <td>Mathematics for Artificial Intelligence/19MA220/Nadar Akila P Mohan</td>
+             <th rowspan="6">BREAK</th>
+             <td>Fundementals of Web Technology/19AI401/Karthi Govindaraju</td>
+             <td>Fundementals of Web Technology/19AI401/Karthi Govindaraju</td>
+         </tr>
+           <tr>
+             <td>THURSDAY</td>
+             <td>Engineering Designing and Modeling/19AI302/Ram G.R</td>
+             <td>Engineering Designing and Modeling/19AI302/Ram G.R</td>
+             <td>Python Programming/19AI301/Nadar Akila P Mohan</td>
+             <td>Python Programming/19AI301/Nadar Akila P Mohan</td>
+             <td>Engineering Mechanics and Product Development/19AI303/Ram G.R </td>
+             <td>Engineering Mechanics and Product Development/19AI303/Ram G.R</td>
+         </tr>
+           <tr>
+             <td>FRIDAY</td>
+             <td>Environmental Science/19MC802/New_chem_3</td>
+             <td>Environmental Science/19MC802/New_chem_3</td>
+             <td>Python Programming/19AI301/Nadar Akila P Mohan</td>
+             <td>Python Programming/19AI301/Nadar Akila P Mohan</td>
+             <td>Web Technology Laboratory/19AI402/Karthi Govindaraju</td>
+             <td>Web Technology Laboratory/19AI402/Karthi Govindaraju</td>
          </tr>
   
+         
+      </table>
+       
+     <center> 1.Mathematics For Artificial Intelligence/19MA220/Nadar Akila P Mohan</center>
+      <center> 2. Linear Algebra Laboratory/19MA221/Nadar Akila P Mohan</center>
+       <center>3. Python Programming/19AI301/Nadar Akila P Mohan</center><br><br>
+      
+     <center>  4.Fundementals Of Technology/19AI401/Karthi Govindaraju</center>
+      <center> 5. Web Technology Laboratory/19AI402/Karthi Govindaraju</center><br><br>
+       
+      <center> 6. Engineering Designing and Modeling/19AI302/Ram G.R</center>
+     <center>  7. Engineering Mechanics and Product Development/19AI303/Ram G.R<br><br>
+       
+      <center> 8. Mentoring-AD1/ECA051-AD/Archana S H</center><br><br>
+       
+    <center>  9. Soft Skills/19EY701/Praveen P</center><br><br> 
+       
+     <center> 10. Environmental Science/19MC802/New_chem_3c</center>
+   </body>
+</html>
+
+
          
       </table>
       
@@ -54,5 +121,26 @@ Execute the program
 </html>
 
 
+         
+      </table>
+      
+   </body>
+</html>
+
+
+         
+      </table>
+      
+   </body>
+</html>
+
+
+         
+      </table>
+      
+   </body>
+</html>
+
 ~~~
 # OUPUT
+![GitHub Logo](table.png)
